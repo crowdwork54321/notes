@@ -1,0 +1,13 @@
+port 7002
+daemonize yes
+dbfilename redis_7002.rdb
+appendonly no
+protected-mode no
+cluster-enabled yes
+cluster-node-timeout 5000
+cluster-config-file nodes_7002.conf
+pidfile redis_7002.pid
+logfile redis_7002.log
+loglevel notice
+masterauth Wfd_gIE2
+requirepass Wfd_gIE2
